@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sandeepsitoke.github.io/sora-invite-code/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1
+
+# Specific rules for search engine bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block unnecessary files
+Disallow: /*.json$
+Disallow: /sw.js
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Priority pages
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
