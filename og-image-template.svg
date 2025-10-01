@@ -1,0 +1,33 @@
+<!-- This is a placeholder file for og-image.jpg -->
+<!-- In production, replace this with an actual 1200x630 image -->
+<!-- 
+Recommended OG image specifications:
+- Size: 1200x630 pixels
+- Format: JPG or PNG
+- Text: "Sora 2 Invite Code Generator"
+- Include app screenshot or branded design
+- Keep file size under 1MB
+-->
+
+<!-- SVG placeholder that can be converted to image -->
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="64" font-weight="bold" text-anchor="middle" fill="white">
+    🎬 Sora 2 Invite Codes
+  </text>
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="rgba(255,255,255,0.9)">
+    Free OpenAI Video AI Access
+  </text>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+    Generate instant invite codes • No registration required
+  </text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="rgba(255,255,255,0.7)">
+    sorainvitecode.netlify.app
+  </text>
+</svg>
