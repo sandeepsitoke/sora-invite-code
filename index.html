@@ -170,13 +170,12 @@
     
     <!-- Performance and Security Headers -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="DENY">
     <meta http-equiv="X-XSS-Protection" content="1; mode=block">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     
     <!-- Preload Critical Resources -->
     <link rel="preload" href="styles.css" as="style">
-    <link rel="preload" href="script.js" as="script">
+    <link rel="preload" href="script.js" as="script" crossorigin>
 </head>
 <body itemscope itemtype="https://schema.org/WebPage">
     <div class="container">
@@ -421,7 +420,8 @@
     }
     </script>
 
-        <script src=\"script.js\"></script>\n    <script src=\"indexing-helper.js\"></script>"
+    <script src="script.js"></script>
+    <script src="indexing-helper.js"></script>
     
     <!-- Google Analytics (Replace with your tracking ID) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
